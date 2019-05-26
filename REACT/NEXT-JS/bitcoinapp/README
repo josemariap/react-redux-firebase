@@ -1,0 +1,33 @@
+Este es un proyecto SSR (server side rendering). Usamos NEXT.JS un peqeuño framework de React para SSR.
+El proyecto base se crea con npm init y se agregan las dependencias de next, react y react-dom para empezar.
+Crear al carpeta /pages y en ella el index.js ya que NEXT la necesita.
+"El Html se arma en el server".
+- Next se encarga del routing de nuestras paginas de pages
+- Next tiene su propio import de Link como react-router-dom
+
+ATENCION: NO usamos create-react-app ya que con el se crean app CSR (client side rendering) y el Html se arma en el cliente (navegador)
+
+En el package.json agrego: "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+
+  ARRANCAMOS LA APP CON: npm run dev
+  Y Arranca con NEXT y ya tenemos REACT SSR, por defecto si es SSR con NEXT busca pages/index.js
+
+Temas: https://bootswatch.com/
+Usamos en esta app:Yety  https://bootswatch.com/4/yeti/bootstrap.min.css
+Hay que crear un master page para el uso de estos, lo llamamos Master.js
+EL MASTER PAGE O MASTER.JS ES COMO EL INDEX.HTML DEL PUBLIC, EN EL AGREGAMOS UN HEAD DE NEXT Y USAREMOS NUESTROS ESTILOS
+
+En el Head de Next del master page agregamos: <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+para que bootstrap lo haga responsive nuestro sitio
+
+Pegarle a la api del lado del servidor debemos instalar: npm install --save-dev isomorphic-unfetch  ya que el fetch es solo del lado del cliente
+
+
+Link usa el de NEXT
+Los componentes que son router se colocan dentro de pages folder
+Componente Master page con tag head de NEXT se agrega todo al index.js del page
+Usa fetch de isomorphic-unfetch, que es para el llamado a la API del lado del servidor Next

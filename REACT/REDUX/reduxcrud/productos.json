@@ -1,0 +1,39 @@
+{
+  "productos": [
+    {
+      "id": 0,
+      "nombre": "Pastel de Vainilla ",
+      "precio": "100"
+    },
+    {
+      "nombre": "Pastel de Fresa",
+      "precio": "40",
+      "id": 6
+    },
+    {
+      "id": 8,
+      "nombre": "Torta de frutillas con crema",
+      "precio": "9999"
+    },
+    {
+      "nombre": "Pastel de coco",
+      "precio": "190",
+      "id": 10
+    },
+    {
+      "nombre": "Paster de moras",
+      "precio": "3335",
+      "id": 11
+    },
+    {
+      "nombre": "Torta de chocolate",
+      "precio": "4456",
+      "id": 12
+    },
+    {
+      "nombre": "Tarta de frutillas",
+      "precio": "3334",
+      "id": 13
+    }
+  ]
+}

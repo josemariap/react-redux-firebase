@@ -1,0 +1,21 @@
+{
+  "name": "bitcoinapp",
+  "version": "1.0.0",
+  "description": "Bitcoin App SSR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
